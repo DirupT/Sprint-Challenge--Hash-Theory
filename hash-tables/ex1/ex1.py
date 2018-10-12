@@ -7,7 +7,7 @@ def get_indices_of_item_weights(weights, limit):
         try:
             return (hash_table[limit - weight], i)
         except KeyError:
-            print("error")
+            pass
 
     return ()
 
