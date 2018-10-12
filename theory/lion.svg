@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="185.5" cy="145.5" rx="30" ry="30"/>
+	<text x="162.5" y="151.5" font-family="Times New Roman" font-size="20">Preen</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="185.5" cy="343.5" rx="30" ry="30"/>
+	<text x="163.5" y="349.5" font-family="Times New Roman" font-size="20">Sleep</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="559.5" cy="145.5" rx="30" ry="30"/>
+	<text x="542.5" y="151.5" font-family="Times New Roman" font-size="20">Eats</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="559.5" cy="343.5" rx="30" ry="30"/>
+	<text x="539.5" y="349.5" font-family="Times New Roman" font-size="20">Hunt</text>
+	<polygon stroke="black" stroke-width="1" points="215.5,343.5 529.5,343.5"/>
+	<polygon fill="black" stroke-width="1" points="529.5,343.5 521.5,338.5 521.5,348.5"/>
+	<text x="321.5" y="364.5" font-family="Times New Roman" font-size="20">Gets Hungry</text>
+	<polygon stroke="black" stroke-width="1" points="559.5,313.5 559.5,175.5"/>
+	<polygon fill="black" stroke-width="1" points="559.5,175.5 554.5,183.5 564.5,183.5"/>
+	<text x="564.5" y="250.5" font-family="Times New Roman" font-size="20">Kills Prey</text>
+	<polygon stroke="black" stroke-width="1" points="529.5,145.5 215.5,145.5"/>
+	<polygon fill="black" stroke-width="1" points="215.5,145.5 223.5,150.5 223.5,140.5"/>
+	<text x="332.5" y="136.5" font-family="Times New Roman" font-size="20">Gets dirty</text>
+	<polygon stroke="black" stroke-width="1" points="185.5,175.5 185.5,313.5"/>
+	<polygon fill="black" stroke-width="1" points="185.5,313.5 190.5,305.5 180.5,305.5"/>
+	<text x="102.5" y="250.5" font-family="Times New Roman" font-size="20">Gets tired</text>
+</svg>

@@ -5,13 +5,17 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
-* Single regex that matches either of these:
+* Single regex that matches either of these: 
+    
+    [a-z]
 
     antelope rocks out
     
     antelopes rock out
 
 * Regex that matches either of:
+
+    [^b]oat
 
     goat
     
@@ -24,6 +28,8 @@ both `antelope` and `antelopes`.)
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
   is correct (e.g 3333-33-33 can match).
+
+  \d{1,4}-\d{1,2}-\d{1,2}
 
   2000-10-12
   
@@ -42,6 +48,8 @@ both `antelope` and `antelopes`.)
 
       ab*c+d?[ef]
 
+      regex.svg
+
   Remember the ε transition can be used to move between states without
   consuming input. 
 
@@ -49,6 +57,8 @@ both `antelope` and `antelopes`.)
   machine diagram for the lion and label the transition events that
   cause state transitions.
 
+  lion.svg
+  
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
   ESC character (ASCII 27), it goes into a special mode where it looks
@@ -56,9 +66,15 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+      \e[[0-9]+[a-z]?;[0-9]+[a-z]?
+      // ESC[[0-9]+[a-z]?;[0-9]+[a-z]?
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+      \e[[1]+[m]
+      // ESC[[1]+[m]
 
   changes the font to bold.
 
