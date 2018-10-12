@@ -5,13 +5,12 @@ def reconstruct_trip(tickets):
 
     tickets = []
     start = hash_table[None]
-    for key, value in hash_table.items():
-        if start is not None:
-            tickets.append(start)
-            try:
-                start = hash_table[start]
-            except KeyError:
-                return []
+    while start:
+        tickets.append(start)
+        try:
+            start = hash_table[start]
+        except KeyError:
+            return []
 
     return tickets
 
